@@ -1,0 +1,6 @@
+sudo apt install python3
+python3 -m pip install virtualenv
+virtualenv venv
+source venv/bin/activate
+sudo apt-get install python-pyaudio python3-pyaudio 
+python3 -m pip install SpeechRecognition pyttsx3 datetime wikipedia
